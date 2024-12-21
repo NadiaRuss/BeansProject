@@ -1,0 +1,61 @@
+.burger_menu {
+  position: absolute;
+  top: 35px;
+  right: 34px;
+  transition: visibility 0.5s, opacity 0.5s linear;
+  cursor: pointer;
+  width: 35px;
+  padding-bottom: 43px;
+}
+
+.bar,
+.bar:after,
+.bar:before {
+  width: 35px;
+  height: 5px;
+  border-radius: 5px;
+}
+
+.bar {
+  position: relative;
+  transform: translateY(25px);
+  background: var(--colorRed);
+  transition: all 0ms 300ms;
+  z-index: 10;
+}
+
+
+.bar:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 13px;
+  background: var(--colorRed);
+  transition: bottom 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.bar:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 13px;
+  background: var(--colorRed);
+  transition: top 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+.bar :global(.animate ){
+  background: rgba(255, 255, 255, 0) !important;
+}
+
+.bar:global(.animate ):after {
+  background: var(--colorWite) !important;
+  top: 0;
+  transform: rotate(45deg);
+  transition: top 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.bar:global(.animate ):before {
+  background: var(--colorWite) !important;
+  bottom: 0;
+  transform: rotate(-45deg);
+  transition: bottom 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}

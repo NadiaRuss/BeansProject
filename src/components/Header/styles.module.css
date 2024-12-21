@@ -1,0 +1,22 @@
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  max-width: 200px;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+}
+.logo_img {
+  width: 50%;
+
+}
+.logo_name {
+  color: var(--color);
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Lobster;
+}
