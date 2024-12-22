@@ -10,6 +10,8 @@ import { HistoryPage } from "./pages/History";
 import { NotFound } from "./pages/NotFound";
 import { Loader } from "./components/Loader";
 import { BeanPage } from "./pages/BeanPage";
+import AboutPage from "./pages/About";
+import RewiewPage from "./pages/Rewiew";
 
 export const router = createBrowserRouter([
   {
@@ -18,24 +20,14 @@ export const router = createBrowserRouter([
     loader: Loader,
     children: [
       { index: true, element: <Home /> },
-      {
-        path: "beans",
-        element: <BeansPage />,
-      },
-      {
-        path: "bean/:id",
-        element: <BeanPage />,
-      },
-      {
-        path: "facts",
-        element: <FactsPage />,
-      },
+      { path: "beans", element: <BeansPage />, },
+      { path: "bean/:id", element: <BeanPage />, },
+      { path: "facts", element: <FactsPage />, },
       { path: "recipes", element: <RecipesPage /> },
       { path: "history", element: <HistoryPage /> },
-      {
-        path: "combinations",
-        element: <CombinationsPage />,
-      },
+      { path: "combinations", element: <CombinationsPage />, },
+      { path: "about", element: <AboutPage />, },
+      { path: "rewiew", element: <RewiewPage />, },
       { path: "*", element: <NotFound /> },
     ],
   },

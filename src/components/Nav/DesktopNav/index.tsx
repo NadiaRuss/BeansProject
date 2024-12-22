@@ -9,6 +9,8 @@ const DesktopNav = () => {
                 <Link to="/BeansProject/recipes">Recipes</Link>
                 <Link to="/BeansProject/combinations">Combinations</Link>
                 <Link to="/BeansProject/history">History</Link>
+                <Link to="/BeansProject/about">About</Link>
+                <Link to="/BeansProject/rewiew">Rewiew</Link>
         </nav>
     )
 }

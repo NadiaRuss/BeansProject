@@ -54,3 +54,7 @@ export type History = {
   mileStoneId: number;
   year: number;
 };
+export type RewiewType = {
+  id: number;
+  rew: string;
+};

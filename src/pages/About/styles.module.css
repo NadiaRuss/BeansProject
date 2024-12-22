@@ -1,0 +1,71 @@
+.container {
+  background: var(--LightRed);
+  color: var(--darkRed);
+  border-radius: 20px;
+  padding: 30px;
+  margin-top: 40px;
+  box-shadow: 0 0 5px gray;
+}
+.h2 {
+  margin-bottom: 20px;
+}
+.inform ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 10px 5px;
+  list-style-type: none;
+}
+.theme {
+  margin: 20px;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+.details {
+  margin: 20px;
+  font-size: 1rem;
+}
+.arrow {
+  width: 20px;
+  margin-left: 10px;
+}
+.h3 a {
+  font-family: "Lobster";
+  margin-left: 10px;
+}
+.h3 a:after {
+  display: block;
+  width: 0;
+  height: 1px;
+  background-color: var(--darkRed);
+  content: "";
+  transition: width 0.4s ease-out;
+}
+.h3 a:hover:after,
+.h3 a:focus:after {
+  width: 100%;
+}
+.h3 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 40px;
+  color: var(--darkRed);
+}
+.inform {
+  border-top: 2px solid var(--darkRed);
+}
+
+@media (max-width: 768px) {
+  .inform ul {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+    .inform ul {
+    grid-template-columns: 1fr;
+    gap: 30px 0;
+  }
+}
