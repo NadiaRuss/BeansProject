@@ -1,7 +1,7 @@
 import styles from "./styles.module.css";
-import prev from "@/images/prev.svg";
-import next from "@/images/next.svg";
-import Slide from "./slide";
+import prev from "../../images/prev.svg";
+import next from "../../images/next.svg";
+import Slider from "./slider";
 
 
 const RewiewPage = () => {
@@ -9,7 +9,7 @@ const RewiewPage = () => {
     <div className={styles.container}>
       <img className={styles.img} src={prev} alt="" />
       <div className={styles.slider}>
-        <Slide />
+        <Slider />
       </div>
       <img className={styles.img} src={next} alt="" />
     </div>

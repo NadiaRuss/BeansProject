@@ -1,3 +1,6 @@
 .container {
     display: flex;
 }
+.slider{
+    width: 80%;
+}

@@ -56,5 +56,5 @@ export type History = {
 };
 export type RewiewType = {
   id: number;
-  rew: string;
+  link: string;
 };

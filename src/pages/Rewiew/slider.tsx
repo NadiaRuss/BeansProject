@@ -2,19 +2,18 @@ import styles from "./styles.module.css";
 import { RewiewType } from "../../types/index";
 import Rewiews from "./data/rewiews.json";
 
-const Slide = () => {
+
+const Slider = () => {
   return (
     <div>
-      {Rewiews.rewiews.map((slide: RewiewType) => (
+      {Rewiews.RewiewsJ.map((slide: RewiewType) => (
         <div key={slide.id} className={styles.slideContainer}>
-          <img
-            src={slide.rew}
-            alt="rewiew picture"
-          />
+          <img src={slide.link} alt="rewiew picture" />
         </div>
+                 
       ))}
     </div>
   );
 };
 
-export default Slide;
+export default Slider;

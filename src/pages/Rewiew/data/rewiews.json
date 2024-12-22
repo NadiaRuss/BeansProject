@@ -1,28 +1,28 @@
 {
-    "rewiews": [
+    "RewiewsJ": [
         {
             "id": 1,
-            "rew": "../../../images/rew/rew1.png"
+            "link": "src/images/rew/rew1.png"
         },
         {
             "id": 2,
-            "rew": "../../../images/rew/rew2.png"
+            "link": "src/images/rew/rew2.png"
         },
         {
             "id": 3,
-            "rew": "../../../images/rew/rew3.png"
+            "link": "src//images/rew/rew3.png"
         },
         {
             "id": 4,
-            "rew": "../../../images/rew/rew4.png"
+            "link": "src//images/rew/rew4.png"
         },
         {
             "id": 5,
-            "rew": "../../../images/rew/rew5.png"
+            "link": "src//images/rew/rew5.png"
         },
         {
             "id": 6,
-            "rew": "../../../images/rew/rew6.png"
+            "link": "src//images/rew/rew6.png"
         }
     ]
 }
