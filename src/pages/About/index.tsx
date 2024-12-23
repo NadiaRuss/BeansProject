@@ -4,6 +4,7 @@ import Info from "./info";
 const AboutPage = () => {
   return (
     <>
+      <h1>About ...</h1>
       <div className={style.container}>
         <h2 className={style.h2}>What to find in this great shop?</h2>
         <div className={style.inform}>
