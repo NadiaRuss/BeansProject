@@ -2,27 +2,27 @@
     "RewiewsJ": [
         {
             "id": 1,
-            "link": "/src/images/rew/rew1.png"
+            "link": "src/assets/rew/rew1.png"
         },
         {
             "id": 2,
-            "link": "/src/images/rew/rew2.png"
+            "link": "src/assets/rew/rew2.png"
         },
         {
             "id": 3,
-            "link": "/src/images/rew/rew3.png"
+            "link": "src/assets/rew/rew3.png"
         },
         {
             "id": 4,
-            "link": "/src/images/rew/rew4.png"
+            "link": "src/assets/rew/rew4.png"
         },
         {
             "id": 5,
-            "link": "/src/images/rew/rew5.png"
+            "link": "src/assets/rew/rew5.png"
         },
         {
             "id": 6,
-            "link": "/src/images/rew/rew6.png"
+            "link": "src/assets/rew/rew6.png"
         }
     ]
 }
