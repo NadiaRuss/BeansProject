@@ -1,17 +1,18 @@
 import styles from "./styles.module.css";
-import prev from "../../images/prev.svg";
-import next from "../../images/next.svg";
-import Slider from "./slider";
+import Rewiews from "./data/rewiews.json";
+import { RewiewType } from "../../types/index";
 
 
 const RewiewPage = () => {
+
+
   return (
     <div className={styles.container}>
-      <img className={styles.img} src={prev} alt="" />
-      <div className={styles.slider}>
-        <Slider />
-      </div>
-      <img className={styles.img} src={next} alt="" />
+        {Rewiews.RewiewsJ.map((slide: RewiewType) => (
+          <div key={slide.id} className={styles.slideContainer}>
+            <img src={slide.link} alt="rewiew picture" />
+          </div>
+        ))}
     </div>
   );
 };
