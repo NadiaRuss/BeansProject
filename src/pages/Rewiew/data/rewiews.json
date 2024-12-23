@@ -2,27 +2,27 @@
     "RewiewsJ": [
         {
             "id": 1,
-            "link": "/BeansProject/src/assets/rew/rew1.png"
+            "link": "BeansProject/src/assets/rew/rew1.png"
         },
         {
             "id": 2,
-            "link": "/BeansProject/src/assets/rew/rew2.png"
+            "link": "BeansProject/src/assets/rew/rew2.png"
         },
         {
             "id": 3,
-            "link": "/BeansProject/src/assets/rew/rew3.png"
+            "link": "BeansProject/src/assets/rew/rew3.png"
         },
         {
             "id": 4,
-            "link": "/BeansProject/src/assets/rew/rew4.png"
+            "link": "BeansProject/src/assets/rew/rew4.png"
         },
         {
             "id": 5,
-            "link": "/BeansProject/src/assets/rew/rew5.png"
+            "link": "BeansProject/src/assets/rew/rew5.png"
         },
         {
             "id": 6,
-            "link": "/BeansProject/src/assets/rew/rew6.png"
+            "link": "BeansProject/src/assets/rew/rew6.png"
         }
     ]
 }
